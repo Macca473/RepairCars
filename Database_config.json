@@ -1,0 +1,7 @@
+{
+    "host": "localhost",
+    "user": "RepairMan",
+    "password": "",
+    "database": "repaircar_db",
+    "port": 5000
+}
