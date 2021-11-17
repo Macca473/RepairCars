@@ -2,10 +2,10 @@ const express = require("express");
 const mysql = require("mysql");
 const app = express();
 const DBinfo = require('./Database_config.json');
-
-const PartsM = require('./models/Parts.model.js');
+var cors = require('cors')
 
 app.use(express.json());
+app.use(cors());
 
 const port = process.env.PORT || 3000;
 
